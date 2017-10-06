@@ -1,0 +1,21 @@
+.writerInfo {
+    padding: 2rem 4rem;
+}
+.nameWriter {
+	text-align: center;
+    font: $font-family-base-bold-weight 24px $font-family-head;
+}
+.personalInfo {
+	color: $color-a;
+	text-align: center;
+	font: $font-family-base-medium-weight 16px $font-family-base;
+}
+.linkWriter{
+	color: $secondary-color;
+}
+.linkWriter:hover{
+	color: $hover-secondary-color;
+}
+.socialMediaWriter {
+	text-align: center;
+}

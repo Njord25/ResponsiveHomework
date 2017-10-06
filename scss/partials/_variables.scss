@@ -1,0 +1,44 @@
+@font-face {
+    font-family:'ball-penregular';
+    src: url('../fonts/ball-pen-regular-webfont.woff2') format('woff2'),
+         url('../ball-pen-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face{
+	font-family: 'Poppins';
+	src: url('../../app/fonts/Poppins-SemiBold.ttf');
+}
+
+@font-face{
+	font-family: 'Vollkorn';
+	src: url('../../app/fonts/Vollkorn-Regular.ttf');
+}
+
+$font-family-base: 'Vollkorn', sans-serif;
+$font-family-head: 'Poppins', sans-serif;
+$font-family-logo: 'ball-penregular', sans-serif;
+
+$font-family-base-medium-weight: 500;
+$font-family-base-light-weight: 300;
+$font-family-base-bold-weight: 700;
+$font-family-contrast-regular-weight: 400;
+
+$base-color: #F7F7F7;
+$primary-color: #7e8483;
+$secondary-color: #1ea592;
+
+$hover-primary-color: #1ea592;
+$hover-secondary-light-color: #1ea592;
+$hover-secondary-color: #7e8483;
+$color-a: #848484;
+
+
+
+// Navigation Variables
+$content-width: 1000px;
+$breakpoint: 800px;
+$nav-height: 70px;
+$link-hover-color: #1ea592;

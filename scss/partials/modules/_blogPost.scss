@@ -1,0 +1,34 @@
+.postBlog {
+	background-color: $base-color;
+	flex-wrap: nowrap | wrap | wrap-reverse;
+	padding: 2rem 4rem;
+}
+
+.time {
+	color: $color-a;
+	text-align: center;
+	font: $font-family-base-medium-weight 17px $font-family-base;
+}
+.BlogText {
+	color: $color-a;
+	font: $font-family-base-medium-weight 16px $font-family-base;
+}
+.subtittleBlog {
+	font:  $font-family-base-bold-weight 20px $font-family-base;
+	margin-bottom: 0;
+}
+.linkInfo {
+	color: $primary-color;
+}
+.linkInfo:hover {
+	color: $hover-secondary-color;
+}
+
+.toggle {
+    background: $primary-color;
+    padding: 10px 20px;
+    width: 100%;
+}
+.banner {
+    text-align: center;
+}
