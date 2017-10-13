@@ -72,9 +72,6 @@ img {
   max-width: 100%;
   height: auto; }
 
-figure {
-  text-align: center; }
-
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -209,8 +206,8 @@ nav {
 footer {
   background: #191919;
   color: #fff;
-  font-family: "Poppins", sans-serif;
-  margin: 0; }
+  margin: 0;
+  font-family: "Poppins", sans-serif; }
   footer .centered {
     max-width: 1290px;
     margin: 0 auto;
@@ -226,10 +223,8 @@ footer {
         padding: 30px 20px 10px 20px;
         max-width: 100%; }
     footer .centered .footer-contact {
-      padding: 10px 20px;
-      width: 35%; }
+      width: 20%; }
     footer .centered .footer-navigation {
-      padding: 10px 20px;
       width: 60%; }
       footer .centered .footer-navigation .footer-links-holder {
         width: 33.33333%;
@@ -277,6 +272,7 @@ footer {
     width: 100%;
     padding: 0; }
     footer .centered .footer-navigation .footer-links-holder h3 {
+      font-family: "Vollkorn", sans-serif;
       margin: 0;
       padding: 10px 20px;
       border-top: #000 1px solid;
@@ -293,23 +289,30 @@ footer {
       max-height: 10000px; } }
 
 /* Social Icons */
-.social a {
-  display: inline-block;
-  padding: 7px;
-  width: 35px;
-  height: 35px;
-  margin: 0 10px;
-  background: #F7F7F7;
-  border-radius: 50%;
-  vertical-align: middle; }
-  .social a:hover {
-    background: #1ea592; }
-  .social a.linkedin {
-    padding: 4px; }
-  .social a svg .face, .social a svg .twit, .social a svg .link {
-    fill: #000; }
+.social {
+  text-align: center; }
+  .social a {
+    display: inline-block;
+    padding: 7px;
+    width: 35px;
+    height: 35px;
+    margin: 0 2px;
+    background: #fff;
+    border-radius: 50%;
+    vertical-align: middle; }
+    .social a:hover {
+      background: #1ea592; }
+    .social a.linkedin {
+      padding: 4px; }
+    .social a svg .face, .social a svg .twit, .social a svg .link {
+      fill: #000; }
 
 /* Typography */
+footer h3 {
+  font-family: "Vollkorn", sans-serif;
+  font-weight: lighter;
+  margin-bottom: 0; }
+
 footer p, footer li {
   font-weight: 400;
   text-transform: uppercase;
@@ -357,8 +360,6 @@ footer a {
 
 .postBlog {
   background-color: #F7F7F7;
-  -ms-flex-wrap: nowrap | wrap | wrap-reverse;
-  flex-wrap: nowrap | wrap | wrap-reverse;
   padding: 2rem 4rem; }
 
 .time {

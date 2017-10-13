@@ -1,8 +1,8 @@
 footer {
   background:#191919;
   color:#fff;
-  font-family:$font-family-head;
   margin:0;
+  font-family: $font-family-head;
   
   .centered {
     max-width:1290px;
@@ -20,12 +20,10 @@ footer {
     }
     
     .footer-contact {
-      padding: 10px 20px;
-      width:35%;
+      width:20%;
     }
     
     .footer-navigation {
-      padding: 10px 20px;
       width:60%;
       
       .footer-links-holder {
@@ -97,6 +95,7 @@ footer {
           padding:0;
           
           h3 {
+            font-family: $font-family-base;
             margin:0;
             padding:10px 20px;
             border-top:#000 1px solid;
@@ -152,17 +151,18 @@ footer {
 
 /* Social Icons */
 .social {
+  text-align:center;
   a {
     display:inline-block;
     padding:7px;
     width:35px;
     height:35px;
-    margin:0 10px;
-    background:$base-color;
+    margin:0 2px;
+    background:#fff;
     border-radius:50%;
     vertical-align:middle;
     &:hover {
-      background:$hover-secondary-light-color;
+      background: $hover-primary-color;
     }
     &.linkedin {
       padding:4px;
@@ -177,6 +177,11 @@ footer {
 
 /* Typography */
 footer {
+  h3 {
+    font-family:$font-family-base;
+    font-weight:lighter;
+    margin-bottom:0;
+  }
 
   p, li {
     font-weight:400;
@@ -191,7 +196,7 @@ footer {
     -webkit-transition: color .5s, background .5s;
     transition: color .5s, background .5s;
     &:hover {
-      color:$hover-secondary-light-color;
+      color:$hover-primary-color;
     }
   }
 }
